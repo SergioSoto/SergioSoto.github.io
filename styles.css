@@ -1,10 +1,9 @@
-/* styles.css */
 body {
   font-family: 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6; /* Light gray background */
-  color: #333; /* Dark gray text */
+  background-color: #f6f6f6;
+  color: #333;
   line-height: 1.5;
 }
 
@@ -14,7 +13,7 @@ body {
 }
 
 .image-container img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 100%;
 }
 
 .container {
@@ -23,11 +22,11 @@ body {
 }
 
 header {
-  background-color: #000000  ; /* Dark gray header */
-  color: #fff; /* White text */
+  background-color: #000000;
+  color: #fff;
   padding: 20px 0;
   text-align: center;
-  border-bottom: 5px solid #555; /* Slightly lighter border */
+  border-bottom: 5px solid #555;
 }
 
 header h1 {
@@ -42,7 +41,7 @@ header p {
 
 section {
   padding: 20px;
-  background-color: #fff; /* White background for sections */
+  background-color: #fff;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -50,30 +49,31 @@ section {
 
 .social-icons {
   display: flex;
-  justify-content: center; /* Center the icons horizontally */
-  align-items: center; /* Center the icons vertically */
-  margin-top: 10px; /* Add some space above the icons */
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .social-icons a {
-  color: #333; /* Icon color */
-  margin: 0 15px; /* Add spacing between icons */
-  font-size: 24px; /* Adjust icon size */
+  color: #333;
+  margin: 0 15px;
+  font-size: 24px;
 }
 
 h2 {
   margin-bottom: 20px;
-  color: #333; /* Dark gray text for headings */
+  color: #333;
 }
 
 ul {
-  list-style-type: disc; /* Use default disc bullet points */
+  list-style-type: disc;
   padding: 0;
 }
 
 footer {
-  background-color: #333; /* Dark gray footer */
-  color: #fff; /* White text */
+  background-color: #333;
+  color: #fff;
   text-align: center;
   padding: 10px 0;
 }
@@ -92,7 +92,7 @@ footer {
 .experience-item,
 .education-item,
 .languages-item {
-  border-bottom: 2px solid #ccc; /* Lighter gray border */
+  border-bottom: 2px solid #ccc;
   padding-bottom: 20px;
 }
 
@@ -105,15 +105,15 @@ footer {
 }
 
 .container h3 {
-  color: #333; /* Dark gray text for headings */
+  color: #333;
 }
 
 .container p {
-  color: #555; /* Slightly lighter gray text */
+  color: #555;
 }
 
 .container ps {
-  color: #dde1e5; /* Slightly lighter gray text */
+  color: #dde1e5;
 }
 
 .skills {
@@ -121,7 +121,7 @@ footer {
 }
 
 .skills h3 {
-  color: #333; /* Dark gray text for headings */
+  color: #333;
 }
 
 .skills ul {
@@ -130,12 +130,11 @@ footer {
 }
 
 .skills li {
-  color: #555; /* Slightly lighter gray text */
-  padding-left: 20px; /* Add left padding to align text with bullets */
+  color: #555;
+  padding-left: 20px;
 }
 
-/* Hover effect */
 .skills li:hover {
-  background-color: #f0f0f0; /* Lighter gray background on hover */
+  background-color: #f0f0f0;
   transition: background-color 0.3s ease;
 }
